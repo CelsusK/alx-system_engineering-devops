@@ -40,8 +40,8 @@ frontend celsusk-tech-frontend
 
 backend celsusk-tech-backend
     balance roundrobin
-    server 319155-web-01 18.214.89.161 check
-    server 319155-web-02 34.232.52.49 check
+    server 319155-web-01 54.237.92.26:80 check
+    server 319155-web-02 100.25.149.9:80 check
 "
 
 # shellcheck disable=SC2154
